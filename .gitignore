@@ -4,3 +4,4 @@
 elaborate-karma-441304-q6-79c67b31dfa2.json
 # Ignore any sensitive CSVs or local files
 *.csv
+SERVICE_ACCOUNT_FILE
