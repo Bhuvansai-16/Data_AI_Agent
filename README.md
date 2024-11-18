@@ -41,7 +41,7 @@ Create a .env file in the root directory
 
    GEMINI_API_KEY=your_gemini_api_key
 
-   GOOGLE_APPLICATION_CREDENTIALS=path/to/your-service-account-file.json
+   GOOGLE_APPLICATION_CREDENTIALS=path/to/your-service-account-file.json (Google cloud platform)
 
 4. Run the Application
 
