@@ -3,7 +3,7 @@ AI Agent Dashboard:
 *Project Summary*
 The AI Agent Dashboard is a web-based application built with Streamlit that enables users to extract specific information about entities using Google Generative AI models. The app supports processing data from uploaded CSV files or Google Sheets, allowing users to download the results or directly update the Google Sheet.
 This project uses concurrency and rate-limiting techniques to efficiently query multiple entities and is ideal for scenarios requiring large-scale data enrichment or AI-powered information retrieval.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Setup Instructions*
 
 1. Clone the Repository
@@ -63,11 +63,11 @@ Concurrent Futures: For handling concurrency while querying multiple entities.
 
 project-folder/
 │
-├── app.py                # Main Streamlit app
-├── requirements.txt      # Python dependencies
-├── .env                  # Environment variables (not included in the repo)
-├── credentials.json      # Google service account file (not included in the repo)
-└── README.md             # Project documentation
+├── app.py                
+├── requirements.txt    
+├── .env                
+├── credentials.json      
+└── README.md       
 --------------------------------------------------------------------------------------------------
 *Key Features*
 1)Streamlit Dashboard: Interactive and user-friendly web-based interface.
