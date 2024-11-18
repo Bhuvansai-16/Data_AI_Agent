@@ -1,14 +1,14 @@
 AI Agent Dashboard:
 
-*Project Summary*
+Project Summary:
 The AI Agent Dashboard is a web-based application built with Streamlit that enables users to extract specific information about entities using Google Generative AI models. The app supports processing data from uploaded CSV files or Google Sheets, allowing users to download the results or directly update the Google Sheet.
 This project uses concurrency and rate-limiting techniques to efficiently query multiple entities and is ideal for scenarios requiring large-scale data enrichment or AI-powered information retrieval.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Setup Instructions*
+Setup Instructions:
 
 1. Clone the Repository
 Clone the repository to your local machine:
-"git clone https://github.com/Bhuvansai-16/Ai_agent_.git"
+git clone https://github.com/Bhuvansai-16/Ai_agent_.git
 --------------------------------------------------------------------------------------------------
 2. Install Dependencies
 Install the required libraries listed in requirements.txt:
@@ -27,7 +27,7 @@ GOOGLE_APPLICATION_CREDENTIALS: Path to your Google service account credentials 
 Start the Streamlit app:
 "streamlit run app.py"
 --------------------------------------------------------------------------------------------------
-*Usage Guide*
+Usage Guide:
 1. Input Data
 Choose an input method:
 Upload CSV: Upload a CSV file containing the entities you want to query.
@@ -42,7 +42,7 @@ Start the process to extract information using Google Generative AI.
 Download CSV: Save the processed data as a CSV file.
 Update Google Sheets: Directly update the original Google Sheet with the processed data.
 --------------------------------------------------------------------------------------------------
-*Third-Party APIs and Tools*
+Third-Party APIs and Tools:
 1. Google Generative AI
 Purpose: To query information about entities using a language model (Gemini).
 Library: google-generativeai
@@ -59,7 +59,7 @@ Pandas: For data manipulation and processing.
 Python-Dotenv: For managing environment variables.
 Concurrent Futures: For handling concurrency while querying multiple entities.
 --------------------------------------------------------------------------------------------------
-*Project Structure*
+Project Structure:
 
 project-folder/
 │
@@ -69,14 +69,14 @@ project-folder/
 ├── credentials.json      
 └── README.md       
 --------------------------------------------------------------------------------------------------
-*Key Features*
+Key Features:
 1)Streamlit Dashboard: Interactive and user-friendly web-based interface.
 2)Multi-source Input: Supports data input via CSV upload or Google Sheets URL.
 3)I Querying: Uses Google Generative AI to extract information efficiently.
 3)Concurrency: Processes multiple entities simultaneously with thread pooling.
 4)Data Export: Download processed data as CSV or update Google Sheets in real-time.
 --------------------------------------------------------------------------------------------------
-*License*
+License:
 This project is licensed under the MIT License.
 --------------------------------------------------------------------------------------------------
 Author
