@@ -48,7 +48,7 @@ def update_google_sheet(sheet_url, data):
 def query_entity(entity, query_type):
     try:
         query = f"Provide only the {query_type.lower()} for {entity}."
-        response = genai.GenerativeModel("gemini-1.5-flash").generate_content(query)
+        response = genai.GenerativeModel("gemini-2.0-pro").generate_content(query)
         return {"Entity": entity, "Extracted Information": response.text.strip()}
     except Exception as e:
         logging.error(f"Error processing entity {entity}: {e}")
